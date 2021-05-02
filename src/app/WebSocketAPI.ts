@@ -4,7 +4,7 @@ import { BehaviorSubject } from 'rxjs';
 import { AppComponent } from './app.component';
 import {HomeComponent} from './home/home.component';
 export class WebSocketAPI {
-    webSocketEndPoint: string = 'http://localhost:8080/ws';
+    webSocketEndPoint: string = 'https://secret-wildwood-51238.herokuapp.com/ws';
     topic: string = "/topic/public";
     stompClient: any;
     appComponent: HomeComponent;
