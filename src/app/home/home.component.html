@@ -1,0 +1,28 @@
+<div id="homeDiv">
+    <!-- <div (click)="startGame()" style="color:white;cursor:pointer;">Start Game</div> -->
+    <div id="firstCircle">
+        <div id="housieDiv">
+            <div *ngIf="houseTicket" #maindiv id="maindiv">
+
+                <div (click)="cellClicked($event)" class="rowsdata">
+                    <div></div><div></div><div></div><div></div><div></div>
+                    <div></div><div></div><div></div><div></div>
+                </div>
+        
+                <div (click)="cellClicked($event)" class="rowsdata">
+                    <div></div><div></div><div></div><div></div><div></div>
+                    <div></div><div></div><div></div><div></div>
+                </div>
+        
+                <div (click)="cellClicked($event)" class="rowsdata">
+                    <div></div><div></div><div></div><div></div><div></div>
+                    <div></div><div></div><div></div><div></div>
+                </div>
+        
+            </div>
+            <div (click)="sendMessage()" id="randomNumberDiv">
+                <span id="randomNumber">{{greeting}}</span>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,41 @@
+.loginimg:before
+{
+     content: "";
+    position: absolute;
+    background: url(../../assets/5073414.jpg);
+    filter:blur(2px);
+    height: 100vh;
+    width: 100%;
+    z-index:-1;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.logindiv
+{
+    padding: 5% 6%;
+    border-radius: 15px;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    transform: translate(0vh, 33vh);
+    background: linear-gradient(
+45deg
+, #00000061, #00000061);
+}
+
+
+#logininput
+{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+}
+
+#loginErrDiv
+{
+    margin-top:15px;
+    color:#ce3457;
+}
