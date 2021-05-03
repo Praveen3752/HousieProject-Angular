@@ -1,7 +1,7 @@
 <div class="loginimg">
     <div class="logindiv">
       <div>
-        <input id="logininput" [(ngModel)] = "loginName" (keyup.enter)="loginCheck()" type="text" />
+        <input id="logininput" placeholder="Enter your name" [(ngModel)] = "loginName" (keyup.enter)="loginCheck()" type="text" />
         <img style="cursor:pointer;" (click)="loginCheck()" src="../assets/paper-plane.png" />
       </div>
   
